@@ -1,0 +1,13 @@
+*.gz
+*.pyc
+*.tar
+*.bz2
+*.tmproj
+hg.prof
+paver-minilib.zip
+setup.py
+*.out*
+.DS_Store
+*.mo
+*.egg-info
+*trace.txt

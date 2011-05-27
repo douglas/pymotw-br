@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+<!-- $Id$ -->
+{% set title = 'Python Module of the Week' %}
+
+{% block head_after_css %}
+<style>
+    #content h2 {
+        border-bottom: 0;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+  <h1>{{ docstitle }}</h1>
+<div class="section">
+  <p>
+      The <a alt="Python Module of the Week" href="http://www.doughellmann.com/PyMOTW/">Python Module of the Week</a> series, or PyMOTW, is a tour of the <a alt="Python" href="http://www.python.org/">Python</a> standard library through short examples. This is version {{ release }}{% if last_updated %}, last updated {{ last_updated }}{% endif %} to cover the <a href="{{module}}/index.html">{{ module }}</a> module.
+  </p>
+  {% block tables %}
+  <table class="contentstable" align="center" valign="top"><tr>
+    <td width="50%">
+      <p class="biglink"><a class="biglink" href="{{ pathto("contents") }}">Complete Table of Contents</a><br>
+         <span class="linkdescr">lists all articles and subsections</span></p>
+     {%- if hasdoc('about') %}
+     <p class="biglink"><a class="biglink" href="{{ pathto('about') }}">About PyMOTW</a><br>
+         <span class="linkdescr">background on the project</span></p>
+     {%- endif %}
+    </td><td width="50%">
+      <p class="biglink"><a class="biglink" href="{{ pathto("py-modindex") }}">Global Module Index</a><br>
+         <span class="linkdescr">quick access to all modules</span></p>
+      <p class="biglink"><a class="biglink" href="{{ pathto("genindex") }}">General Index</a><br>
+         <span class="linkdescr">all functions, classes, terms</span></p>
+    </td></tr>
+  </table>
+  
+  <h3>Download</h3>
+  <p>Download <a href="/downloads/PyMOTW-{{version}}.tar.gz">version {{ version }}</a>, including all source files with examples and HTML versions of the documentation.</p>
+  
+  <p>There is also a PDF of this entire document <a href="PyMOTW-{{version}}.pdf">available for download</a>.</p>
+
+  <h3>Translations</h3>
+  <p><a href="about.html#translations-and-other-versions">Several translations</a> are in process.</p>
+  
+  <h3>Recent Blog Posts</h3>
+  <script src="http://feeds.feedburner.com/PyMOTW?format=sigpro" type="text/javascript" ></script><noscript><p>Subscribe to RSS headline updates from: <a href="http://feeds.feedburner.com/PyMOTW"></a><br/>Powered by FeedBurner</p> </noscript>
+
+  </div>
+
+  {% endblock %}
+{% endblock %}
