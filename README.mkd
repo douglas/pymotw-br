@@ -1,27 +1,27 @@
-Python Module of the Week
-=========================
+Módulo Python da Semana (Python Module of the Week)
+===================================================
 
-PyMOTW is a series of blog posts written by `Doug Hellmann <http://www.doughellmann.com/>`_.  It was started as a way to build the habit of writing something on a regular basis.  The focus of the series is building a set of example code for the modules in the `Python <http://www.python.org/>`_ standard library.
+O PyMOTW é uma coleção de artigos escritos por `Doug Hellmann <http://www.doughellmann.com/>`_. Tudo começou com a idéia de que artigos fossem escritos com uma boa frequência. O objetivo é criar uma série de artigos com códigos de exemplo dos módulos da biblioteca padrão da linguagem `Python <http://www.python.org/>`_.
 
-:Project Home Page: http://www.doughellmann.com/PyMOTW/
-:Issue Tracker and Source: http://www.bitbucket.org/dhellmann/pymotw/
+:Site do projeto: http://www.doughellmann.com/PyMOTW/
+:Issue Tracker e Código Fonte: http://www.bitbucket.org/dhellmann/pymotw/
 
-Complete documentation for the standard library can be found on the Python web site at http://docs.python.org/.
+A documentação completa da biblioteca padrão pode ser encontrada no site da linguagem Python em http://docs.python.org/.
 
-Subscribe
-=========
+Subscrição
+==========
 
-As new articles are written, they are posted to `my blog <http://blog.doughellmann.com/>`_.  Updates are available by `RSS <http://feeds.feedburner.com/PyMOTW>`_ and `email <http://www.feedburner.com/fb/a/emailverifySubmit?feedId=806224&amp;loc=en_US>`_.
+Assim que novos artigos forem escritos, eles serão postados `no meu blog <http://blog.doughellmann.com/>`_. Atualizações são disponibilizadas através de `RSS <http://feeds.feedburner.com/PyMOTW>`_ e `e-mail <http://www.feedburner.com/fb/a/emailverifySubmit?feedId=806224&amp;loc=en_US>`_.
 
-Translations and Other Versions
-===============================
+Traduções e outras versões
+==========================
 
-For information about translations and other versions of this document see the project information page, http://www.doughellmann.com/PyMOTW/about.html.
+Para informações sobre traduções e outras versões deste documento, acesse a página de informações do projeto em http://www.doughellmann.com/PyMOTW/about.html.
 
 
-Copyright and Licensing
-=======================
+Copyright e Licença
+===================
 
-All of the prose from the Python Module of the Week is licensed under a `Creative Commons Attribution, Non-commercial, Share-alike 3.0 <http://creativecommons.org/licenses/by-nc-sa/3.0/us/>`_ license.  You are free to share and create derivative works from it.  If you post the material online, you must give attribution and link to the PyMOTW home page (http://www.doughellmann.com/PyMOTW/).  You may not use this work for commercial purposes.  If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+Todo o conteúdo do PyMOTW é licenciado sob  `Creative Commons Atribuição, Não-comercial, Compartilhamento pela mesma licença 3.0 <http://creativecommons.org/licenses/by-nc-sa/3.0/us/>`_.  Você pode compartilhar e criar conteúdo derivado dele. Se você publicar o material online, você deverá fazer referência ao site do projeto PyMOTW (http://www.doughellmann.com/PyMOTW/). Você não pode usar este trabalho para fins comerciais. Se você alterar, transformar ou adicionar algo a este trabalho, você poderá distribuir o trabalho resultante apenas sob a mesma licença ou sob alguma licença similar a esta.
 
-The source code included here is copyright Doug Hellmann and licensed under the BSD license.
+O código fonte incluso aqui é copyright de Doug Hellmann e é licenciado sob a licença BSD.
