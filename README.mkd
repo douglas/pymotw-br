@@ -31,6 +31,7 @@ Instruções para tradução do PyMOTW-br
   * Entre em contato com Douglas Soares de Andrade para que você seja adicionado como colaborador do repositório, assim você poderá fazer push diretamente no repositório e terá permissões para utilizar o wiki;
   * Antes de começar a traduzir, acesse o wiki em https://github.com/dsarch/pymotw-br/wiki/Tradutores-e-módulos e verifique o andamento das traduções;
   * Não faça alterações nas traduções que estiverem em andamento, desta forma evitaremos conflitos de merge;
-  * Comece a tradução escolhendo um módulo de seu interesse e adicione as informações pertinentes no wiki: https://github.com/dsarch/pymotw-br/wiki/Tradutores-e-módulos.
+  * Comece a tradução escolhendo um módulo de seu interesse e adicione as informações pertinentes no wiki: https://github.com/dsarch/pymotw-br/wiki/Tradutores-e-módulos;
+  * Verifique se os arquivos .py continuam rodando após as traduções de comentários e docstrings.
 
 Obrigado pela colaboração! :-)
